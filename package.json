@@ -2,7 +2,7 @@
   "name": "react-native-camera-kit",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wix/react-native-camera-kit.git"
+    "url": "https://github.com/turkeryildirim/react-native-camera-kit.git"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
@@ -26,7 +26,7 @@
   "license": "MIT",
   "devDependencies": {
     "react": "16.8.3",
-    "react-native": "0.59.x",
+    "react-native": "0.60.x",
     "babel-jest": "22.4.1",
     "babel-preset-react-native": "4.0.0",
     "jest": "22.4.2",

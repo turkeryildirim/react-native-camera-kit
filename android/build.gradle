@@ -18,6 +18,21 @@ android {
     }
 }
 
+buildscript {
+    repositories {
+        maven {
+            url 'https://maven.google.com/'
+            name 'Google'
+        }
+        jcenter()
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.5.2'
+    }
+}
+
 dependencies {
     implementation 'com.facebook.react:react-native:+'
     implementation 'com.android.support:recyclerview-v7:25.0.1'
