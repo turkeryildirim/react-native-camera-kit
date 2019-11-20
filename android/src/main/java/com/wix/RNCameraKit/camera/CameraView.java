@@ -2,11 +2,13 @@ package com.wix.RNCameraKit.camera;
 
 import android.graphics.Color;
 import android.graphics.Rect;
-import android.support.annotation.ColorInt;
+//import android.support.annotation.ColorInt;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 import android.view.View;
 import android.widget.FrameLayout;
+
+import androidx.annotation.ColorInt;
 
 import com.facebook.react.uimanager.ThemedReactContext;
 import com.wix.RNCameraKit.Utils;

@@ -5,7 +5,9 @@ import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.net.Uri;
-import android.support.annotation.NonNull;
+//import android.support.annotation.NonNull;
+
+import androidx.annotation.NonNull;
 
 import com.facebook.react.bridge.Arguments;
 import com.facebook.react.bridge.ReadableArray;
@@ -51,7 +53,8 @@ public class Utils {
         return null;
     }
 
-    public static @NonNull ArrayList<String> readableArrayToList(ReadableArray items) {
+    public static @NonNull
+    ArrayList<String> readableArrayToList(ReadableArray items) {
         ArrayList<String> list = new ArrayList<>();
         for(int i = 0; i < items.size(); i++) {
             list.add(items.getString(i));
